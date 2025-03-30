@@ -1,0 +1,20 @@
+header {
+    background: linear-gradient(to right, #2E4A62, #6B8EA9); /* Blauwe tinten */
+    padding: 15px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}

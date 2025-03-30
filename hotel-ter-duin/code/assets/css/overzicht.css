@@ -1,0 +1,70 @@
+/* Reservation Page Styles */
+.reservation-overview h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styles for Reservation Overview */
+.reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-table th, .reservation-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background: linear-gradient(to right, #2E4A62, #6B8EA9); /* Blauwe tinten */
+    color: white;
+}
+
+.reservation-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reservation-table td {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Status Column Styling */
+.reservation-table td.status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status-available {
+    color: green;
+}
+
+.status-booked {
+    color: red;
+}
+
+/* No Reservations Message */
+.no-reservations {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Link Style (For example, if you want to add a link to go back to the main page) */
+.reservation-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.reservation-link:hover {
+    text-decoration: underline;
+}
