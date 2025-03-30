@@ -1,0 +1,161 @@
+/* General styles for the table on larger screens */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #0073e6;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    color: #555;
+}
+
+table td:first-child,
+table th:first-child {
+    text-align: left;
+}
+
+td:last-child,
+th:last-child {
+    text-align: center;
+    width: 20%;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-detail {
+    background-color: #3659f4;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+        align-items: stretch;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        margin: 10px 0;
+        border: none;
+        box-shadow: none; /* Remove shadow on mobile for simplicity */
+    }
+
+    thead {
+        display: none; /* Hide table headers on mobile */
+    }
+
+    tbody,
+    tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: none;
+        font-size: 14px;
+    }
+
+    td::before {
+        content: attr(data-label); /* Display the corresponding header for each cell */
+        font-weight: bold;
+        flex: 1;
+        color: #333;
+    }
+
+    td:last-child {
+        text-align: center;
+    }
+
+    /* Adjust buttons to be more touch-friendly */
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 5px;
+        padding: 12px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .btn-edit, .btn-cancel, .btn-detail {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

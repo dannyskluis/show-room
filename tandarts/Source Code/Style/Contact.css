@@ -1,0 +1,68 @@
+newisty-contact-us-generator body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+newisty-contact-us-generator .container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 40px;
+    margin-top: 30px;
+}
+newisty-contact-us-generator h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+newisty-contact-us-generator a {
+    color: #4CAF50;
+    font-weight: 700;
+}
+newisty-contact-us-generator a:hover {
+    text-decoration: none;
+}
+newisty-contact-us-generator .contact-method {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+newisty-contact-us-generator .contact-method-icon {
+    left: 0;
+    top: 20px;
+    font-size: 40px;
+    color: #4CAF50;
+    padding-right: 20px;
+}
+newisty-contact-us-generator .contact-method-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+newisty-contact-us-generator .contact-method-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+newisty-contact-us-generator .social-icons {
+    margin-top: 30px;
+}
+newisty-contact-us-generator .social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+newisty-contact-us-generator .social-icons a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+ newisty-contact-us-generator .social-icons a i{
+     margin-top: 10px;
+ }

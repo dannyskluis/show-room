@@ -1,0 +1,62 @@
+.total-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile, .insurance-profile {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.profile h2, .insurance-profile h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile p, .insurance-profile p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+.return {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.edit, a.return {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    transition: background-color 0.3s ease;
+}
+
+a.edit:hover, a.return:hover {
+    background-color: #0056b3;
+}
+
+a.edit p, a.return p {
+    margin: 0;
+    text-align: center;
+}
+
+.edit p{
+    color: #fff;
+}

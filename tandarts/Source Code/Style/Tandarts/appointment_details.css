@@ -1,0 +1,118 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.total-appointment {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+main h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 14px;
+    color: #333;
+    margin: 8px 0;
+}
+
+main a {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    color: #004080;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main a:hover {
+    color: #ffcc00;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form textarea {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    resize: vertical;
+}
+
+form textarea:focus {
+    outline: none;
+    border-color: #004080;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.3);
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #ffcc00;
+    color: #004080;
+}
+
+.noComment {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .total-appointment {
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    main p {
+        font-size: 13px;
+    }
+
+    main a {
+        font-size: 15px;
+    }
+
+    form textarea {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+}

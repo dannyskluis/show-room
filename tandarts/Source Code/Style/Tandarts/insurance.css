@@ -1,0 +1,85 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.total-insurance {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.total-insurance p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.insurance-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.insurance-card span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.insurance-card p {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+}
+
+.return {
+    color: #004080;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+.return p:hover {
+    color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+    .total-insurance {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .total-insurance p {
+        font-size: 20px;
+    }
+
+    .insurance-card span {
+        font-size: 14px;
+    }
+
+    .insurance-card p {
+        font-size: 12px;
+    }
+
+    a p {
+        font-size: 14px;
+    }
+}

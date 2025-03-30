@@ -1,0 +1,56 @@
+main h2 {
+    color: #333;
+    text-align: center;
+}
+
+main form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+main label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+ main input[type="date"],
+main select,
+main textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+main button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+main button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.errorlogin {
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}

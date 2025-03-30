@@ -1,0 +1,66 @@
+.everything {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.everything p {
+    margin-bottom: 20px;
+}
+
+.everything b {
+    color: #222;
+    font-weight: bold;
+}
+
+.everything h1, .everything h2, .everything h3 {
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.everything a {
+    color: #fcb600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.everything a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.everything ul, .everything ol {
+    margin-left: 20px;
+}
+
+.everything ul li, .everything ol li {
+    margin-bottom: 10px;
+}
+
+.everything li {
+    list-style-type: decimal;
+}
+
+.everything li::before {
+    content: counter(li) ". ";
+    counter-increment: li;
+    color: #222;
+    font-weight: bold;
+}
+
+.everything li {
+    counter-reset: li;
+}
+
+@media (max-width: 768px) {
+    .everything {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,56 @@
+.everything {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.everything h1 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.everything h1 b {
+    color: #fcb600;
+}
+
+
+.everything p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.everything p b {
+    color: #fcb600;
+}
+
+.everything a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fcb600;
+}
+
+.everything a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .everything {
+        padding: 10px;
+    }
+
+    .everything h1 {
+        font-size: 1.5em;
+    }
+
+    .everything p {
+        font-size: 0.9em;
+    }
+}
