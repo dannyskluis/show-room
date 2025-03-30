@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* For mobile view */
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+        /* Hide menu by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        /* Adjust based on your header's height */
+        left: -44px;
+        /* Position the menu to the left */
+        background-color: #4CAF50;
+        width: auto;
+        padding: 1rem 0;
+        z-index: 1000;
+        /* Ensure the menu is above other content */
+    }
+
+    header nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+        /* Show hamburger on mobile */
+        cursor: pointer;
+    }
+
+    header nav ul.active {
+        display: flex;
+        /* Show menu when active */
+    }
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 100px;
+}
