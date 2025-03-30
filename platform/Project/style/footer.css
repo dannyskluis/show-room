@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a,
+footer p {
+    margin: 10px;
+    color: #272727;
+}

@@ -1,0 +1,66 @@
+main {
+    margin: 200px;
+    margin-right: 20px;
+}
+
+main h1 {
+    color: #323232;
+}
+
+main a {
+    color: #ddd0c8;
+    background-color: #323232;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+main h1,
+main a {
+    margin-left: 150px;
+}
+
+main .progresstable {
+    width: 30%;
+    font-size: 14px;
+    float: right;
+    box-shadow: 1px 9px 5px #323232;
+    margin-right: 100px;
+}
+
+main .progresstable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-style: none;
+}
+
+main .progresstable table th {
+    border-style: none;
+    background-color: #fffafa;
+    padding: 10px;
+}
+
+main .progresstable table .progresstablediv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    background-color: #fffafa;
+    color: #323232;
+    border-left: 5px solid #005427;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+main .progresstable table .progresstablediv p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+tbody tr,
+thead tr th {
+    border-bottom: 1px solid #ffffff5d;
+}
